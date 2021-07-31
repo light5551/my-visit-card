@@ -19,6 +19,4 @@ WORKDIR /
 
 COPY --from=build /visit-card /visit-card
 
-EXPOSE 8080
-
 ENTRYPOINT ["/visit-card"]
